@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-paper-scissors</title>
+    <link rel="stylesheet" href="../../style/styleENG.css">
+</head>
+<body>
+    <button class="btn"><a href="../RU/index.html">Поменять язык / Change the language</a></button>
+    
+    <div class="container">
+
+        <!-- появляющееся окно -->
+        <a href="#win1" class="button button-blue">Rules</a>
+        <a href="#x" class="overlay" id="win1"></a>
+        <div class="popup">
+         <img title="" src="../../img/rules.png" width="120" height="120" alt="" style="float: left;" />  
+      
+         <p id="text">Starting...</p>
+         <div>
+         
+            <input type="number" name="speed" id="speed" value="3" min="1" max="10" step="1">
+          </div>
+          
+         <a class="close"title="Закрыть" href="#close"></a>
+         </div>
+         <h1>rock paper scissors</h1>
+         <p class="choise_btn">Select one of the buttons:</p>
+       
+
+        <div class="btnChoice">
+            <button  id="rock" class="btnChoice__item">Stone</button>
+            <button id="scissors" class="btnChoice__item">Scissors</button>
+            <button id="paper" class="btnChoice__item">Paper</button>
+        </div>
+        <!-- <button id="randomizeButton">Случайное изображение</button> -->
+        
+    </div>
+    <div id="result" class="resultBox" name="red">
+        <h7>Result:</h7>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html > 
+
+<!-- <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камень, Ножницы, Бумага</title>
+
+<section></section>
+    <script src="main.js"></script>
+</body>
+</html> -->
